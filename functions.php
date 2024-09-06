@@ -1,6 +1,6 @@
 <?php 
 
-function spitout_scripts()
+function custom_scripts()
 {
     /* Enquee CSS  */
     wp_enqueue_style('style-css', get_template_directory_uri() . '/assets/css/style.css', time(), true);
@@ -9,4 +9,4 @@ function spitout_scripts()
     /* Enquee JS  */
     wp_enqueue_script('custom-scripts', get_template_directory_uri() . '/js/script.js', array(), time(), true);
 }
-add_action('wp_enqueue_scripts', 'spitout_scripts');
+add_action('wp_enqueue_scripts', 'custom_scripts');
