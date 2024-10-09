@@ -1,12 +1,14 @@
-/*-------------------------------------------------------------
-Responsive CSS here 
---------------------------------------------------------------*/
+/* This CSS code is setting up media queries for different screen widths to make the website
+responsive. */
+
+/* min-width are in increasing order from top to bottom */
 @media screen and (min-width:992px) {}
 
 @media screen and (min-width:1375px) {}
 
 @media screen and (min-width:1440px) {}
 
+/* max-width are in decreasing order from top to bottom  */
 @media screen and (max-width:1199px) {}
 
 @media screen and (max-width:991px) {}
